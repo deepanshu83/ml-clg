@@ -1,0 +1,101 @@
+# ── Virtual Environment ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Dataset Images ────────────────────────────────────────────────────────────
+# Keep folder structure (.gitkeep) but ignore actual images
+dataset/book/*.jpg
+dataset/book/*.jpeg
+dataset/book/*.png
+dataset/coffee_mug/*.jpg
+dataset/coffee_mug/*.jpeg
+dataset/coffee_mug/*.png
+dataset/computer_mouse/*.jpg
+dataset/computer_mouse/*.jpeg
+dataset/computer_mouse/*.png
+dataset/keyboard/*.jpg
+dataset/keyboard/*.jpeg
+dataset/keyboard/*.png
+dataset/scissors/*.jpg
+dataset/scissors/*.jpeg
+dataset/scissors/*.png
+dataset/shoe/*.jpg
+dataset/shoe/*.jpeg
+dataset/shoe/*.png
+dataset/smartphone/*.jpg
+dataset/smartphone/*.jpeg
+dataset/smartphone/*.png
+dataset/tv_remote/*.jpg
+dataset/tv_remote/*.jpeg
+dataset/tv_remote/*.png
+dataset/wallet/*.jpg
+dataset/wallet/*.jpeg
+dataset/wallet/*.png
+dataset/water_bottle/*.jpg
+dataset/water_bottle/*.jpeg
+dataset/water_bottle/*.png
+
+# Keep attribution CSV (licensing metadata should be tracked)
+!dataset/attribution.csv
+
+# ── Trained Model Weights ─────────────────────────────────────────────────────
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.tflite
+models/*.onnx
+
+# ── Reports & Generated Artifacts ────────────────────────────────────────────
+reports/confusion_matrix.png
+reports/training_history.png
+reports/classification_report.txt
+reports/metrics.json
+reports/data_splits.json
+
+# ── OS & Editor Files ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ── Environment Variables ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Build / Dist ──────────────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+site/
+
+# ── TensorFlow / Keras Internals ──────────────────────────────────────────────
+*.tfevents.*
+logs/
+tensorboard_logs/
